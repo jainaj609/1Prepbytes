@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <center>
+        <h1>HTML Assessment from PrepBytes</h1>
+        <hr>
+        <p>Image used from Absolute path</p>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhfWYBxHDAwqxMKfvzhX-mj2VECDKyF3KK-A&usqp=CAU" alt="logo PrepBytes">
+        <p>Image used from Relative path</p><br>
+        <img src="./images/GwlFort.jpeg" alt="Image" height="100"><br><br>
+        <a href="https://www.prepbytes.com" target="_blank">Link should be open in another tab</a><br><br>
+        <a href="https://www.prepbytes.com" target="_self">Link should be open in same tab</a>
+        <br>
+        <hr>
+        <h1>Form</h1>
+
+        <form action="">
+            <label for="name">Name:</label>
+            <input type="text" name="name" value="name" id="name">
+            <br><br>
+
+
+            <label for="email">Email:</label>
+            <input type="email" name="email" value="email" id="eamil">
+            <br><br>
+
+            <label for="pwd">Password:</label>
+            <input type="password" name="password" value="password" id="pwd">
+            <br><br>
+
+            <label for="no">Phone No :</label>
+            <input type="number" name="number" value="number" id="no">
+            <br><br>
+
+            Language
+            <br><br>
+            <input type="radio" name="language" value="React" id="react">
+            <label for="react">React</label>
+            <br>
+            <input type="radio" name="language" value="Angular" id="angular">
+            <label for="angular">Angular</label>
+            <br>
+            <input type="radio" name="language" value="Vue" id="vue">
+            <label for="vue">React</label>
+            <br><br>
+
+            Course
+            <br><br>
+            <input type="checkbox" name="course" value="mern" id="mern">
+            <label for="mern">MERN</label>
+            <br>
+            <input type="checkbox" name="course" value="mean" id="mean">
+            <label for="mean">MEAN</label><br>
+
+            <input type="checkbox" name="course" value="MEVN" id="mevn">
+            <label for="mevn">MEVN</label>
+            <br><br>
+            Field
+            <br>
+            <select name="Field" id="field">
+                <option value="FrontEnd">Front End</option>
+                <option value="BackEnd">Back End</option>
+                <option value="FullStack">Full Stack</option>
+            </select>
+            <br><br>
+            <button type="submit">Submit</button>
+        </form>
+        <hr>
+
+        <table border="2" style="text-align: center;" width="700px">
+            <h1>Table</h1>
+
+            <tr>
+                <th>Course</th>
+                <th colspan="2" bgcolor="gray">Contact Detail</th>
+                <th>Date of Joining</th>
+            </tr>
+            <tr>
+                <td>Elevation Academy</td>
+                <td colspan="2">1234567890</td>
+                <td>2 Dec 2022</td>
+            </tr>
+            <tr>
+                <td bgcolor="gray">Elevation Academy</td>
+                <td rowspan="2">1234567890</td>
+                <td colspan="2">2 Dec 2022</td>
+
+
+            </tr>
+            <tr>
+                <td>Elevation Academy</td>
+                <td bgcolor="gray">2 Dec 2022</td>
+                <td></td>
+            </tr>
+        </table>
+    </center>
+    <br><br>
+    <hr>
+    <h1>List</h1>
+    <ul>
+        <li>Mobile Development</li>
+        <li>Web Development</li>
+        <ul>
+            <li>React</li>
+            <li>Angular</li>
+            <li>Vue</li>
+        </ul>
+        <li>Cloud server</li>
+    </ul>
+    <br><br>
+    <hr>
+</body>
+
+</html>
