@@ -1,0 +1,15 @@
+.container{
+    background-image: url(../images/images.jpg);
+    background-size: 1000px contain;
+    background-repeat: no-repeat;
+}
+.parent{
+    font-size: 10px;
+}
+.em1{
+    font-size: 2em;
+}
+.rm1{
+    font-size: 2em;
+
+}
