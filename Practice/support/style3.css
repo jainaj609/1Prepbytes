@@ -1,0 +1,22 @@
+nav{
+    background-color: cornsilk;
+    color: lawngreen;
+    padding: 40px;
+    display: flex;
+    justify-content: space-around;
+    position: sticky;
+    top: 0px;
+}
+.links{
+    display: flex;
+    gap: 20px;
+}
+.box{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: darkseagreen;
+}
+li{
+    display: inline-block;
+}
